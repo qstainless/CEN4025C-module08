@@ -1,0 +1,85 @@
+
+/*
+Course:      CEN4025C-33718
+Instructor:  Dr. Dhrgam Al Kafaf
+Description: Module 7 Assignment
+Author:      Guillermo Castaneda Echegaray
+*/
+
+html {
+    font-size: large
+}
+
+p {
+    font-size: large;
+    line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: left
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px
+}
+
+h2 {
+    font-size: 1.6em
+}
+
+h3 {
+    font-size: 1.4em;
+    padding: 10px 0 5px 0
+}
+
+h4 {
+    font-size: 1.2em
+}
+
+h5 {
+    font-size: 1.0em
+}
+
+h6 {
+    font-size: 0.8em
+}
+
+img {
+    border: 1px solid rgba(97, 62, 5, 0.82);
+    width: 100%
+}
+
+section {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+}
+
+.item-id {
+    width: 2em;
+}
+
+.item-due-date {
+    width: 6em;
+}
+
+.item-action {
+    width: 8em;
+}
+
+.divider {
+    color: #c9c9c9;
+    padding: 0 0.5em;
+}
