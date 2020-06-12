@@ -7,7 +7,7 @@ This exercise uses a web application that allows a user to create, update, and d
 The program is a web application using Tomcat, which allows the user to view, add, edit, and delete to-do items. The to-do items are saved to a MySQL database.
 
 ## System requirements
-The application uses version 8 of Amazon's distribution of the Open Java Development Kit (OpenJDK) [Corretto 8](https://aws.amazon.com/corretto/), Tomcat for deployment, and Hibernate and persistence to perform JDBC operations on a MySQL database.
+The application uses version 11 of Amazon's distribution of the Open Java Development Kit (OpenJDK) [Corretto 11](https://aws.amazon.com/corretto/), Tomcat for deployment, and Hibernate and persistence to perform JDBC operations on a MySQL database.
 
 ## Database connection defaults
 The program assumes that a database named `module_07_db` exists in the local MySQL database and a user with all database privileges exists with username/password: `module07user`/`module07pass`. It also assumes that it will connect to localhost using default port 3306. 
